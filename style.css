@@ -1,0 +1,180 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f7f7fb;
+}
+
+/* Layout */
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Header & Nav */
+
+.site-header {
+  background: #182444;
+  color: #fff;
+  padding: 1.2rem 0;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.site-subtitle {
+  margin: 0.2rem 0 0;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.navbar {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e4e8ff;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  background: #f7f7fb;
+  color: #182444;
+  border-color: #d5daf5;
+}
+
+/* Main content */
+
+main {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.5rem;
+}
+
+h1,
+h2,
+h3 {
+  color: #182444;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-top: 1.3rem;
+}
+
+h3 {
+  font-size: 1.05rem;
+  margin-top: 1rem;
+}
+
+.lead {
+  font-size: 1.02rem;
+  color: #333;
+}
+
+.highlight-box {
+  background: #f1f3ff;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid #4a59c2;
+  margin: 1rem 0 1.5rem;
+}
+
+/* Lists, tables */
+
+ul {
+  padding-left: 1.2rem;
+}
+
+.key-dates {
+  list-style: none;
+  padding-left: 0;
+}
+
+.key-dates li {
+  margin-bottom: 0.2rem;
+}
+
+.key-dates span {
+  display: inline-block;
+  min-width: 220px;
+  font-weight: 600;
+}
+
+.table-like {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.75rem;
+}
+
+.table-like th,
+.table-like td {
+  padding: 0.5rem 0.3rem;
+  border-bottom: 1px solid #e2e2ec;
+  text-align: left;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  background: #e8ecff;
+  color: #182444;
+}
+
+/* Footer */
+
+.site-footer {
+  font-size: 0.8rem;
+  color: #666;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+/* Responsive */
+
+@media (max-width: 640px) {
+  .wrapper {
+    padding: 1rem;
+  }
+
+  main {
+    padding: 1.1rem;
+  }
+
+  .key-dates span {
+    min-width: 0;
+    display: block;
+  }
+}
