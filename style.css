@@ -31,6 +31,15 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
+/* Header text colors */
+.site-title {
+  color: #ffffff;  /* 흰색 */
+}
+
+.site-subtitle {
+  color: #e8e8e8;  /* 밝은 회색 - 더 부드럽게 */
+}
+
 .site-title {
   margin: 0;
   font-size: 1.4rem;
