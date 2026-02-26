@@ -181,3 +181,26 @@ ul {
     display: block;
   }
 }
+
+.poster-box {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.poster-image {
+  max-width: 480px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+}
+
+.poster-image:hover {
+  transform: scale(1.02);
+}
+
+.poster-caption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.6rem;
+}
